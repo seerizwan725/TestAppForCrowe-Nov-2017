@@ -10,7 +10,6 @@ namespace CrowSampleApplication.Controllers
     public class CroweService
     {
         private const string Uri = "http://croweapitest.azurewebsites.net/api/values";
-
         public async Task<string> GetAsync()
         {
             using (var httpClient = new HttpClient())
